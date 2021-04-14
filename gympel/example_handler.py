@@ -76,7 +76,7 @@ if __name__ == "__main__":  #If script is executed
       while True:
         column = input('example = ')
         print(column)
-        example += column
+        example += column + "\n"
         if column == "stop":
           break
         
